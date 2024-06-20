@@ -1,0 +1,6 @@
+PS D:\Code\SmartTrash> .\venv\Scripts\activate
+(venv) PS D:\Code\SmartTrash> cd .\server\smart_trask\
+(venv) PS D:\Code\SmartTrash\server\smart_trask> python manage.py runserver 0.0.0.0:8000
+git pull origin master
+
+https://dutudn-my.sharepoint.com/:w:/r/personal/102210333_sv1_dut_udn_vn/_layouts/15/Doc.aspx?sourcedoc=%7B4AF22F17-A830-4611-9DBD-43D2CC68C372%7D&file=PBL5-%20Th%25u00f9ng%20r%25u00e1c%20th%25u00f4ng%20minh%20(1).docx&wdLOR=c10CA51B4-4665-4C48-96CF-756DF6458DAE&fromShare=true&action=default&mobileredirect=true
