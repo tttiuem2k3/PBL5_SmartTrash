@@ -1,5 +1,5 @@
 # Smart Trash Project 🚮✨  
-## Table of Contents
+## Table of Contents 
 - [Demo](#demo)
 - [Team Roles](#team-roles)
 - [Description](#description)
@@ -9,7 +9,7 @@
 - [Contact](#contact)
 ## Demo 🎥
 ![Demo](./DEMO/demo.gif)
-## Team Roles
+## Team Roles 👥
 - **Mr. Hoang Trong** - AI Engineer
   - Responsibilities: Researched algorithm for model training, collected data, trained and fine-tuned AI model, developed Django Rest Framework server, implemented APIs for mobile deployment, and wrote reports.
   - Github: [https://github.com/bigboss151102](https://github.com/bigboss151102)
@@ -26,7 +26,7 @@
   - Responsibilities: Design hardware model, assemble circuit, write servo control code, and compile a report.
   - Github: [https://github.com/hoanggtin](https://github.com/hoanggtin)
 
-## Description
+## Description 🧠
 ### 1. Design and Build of Smart Trash Bins:
 - We have designed and constructed smart trash bins that are compact and suitable for various public settings such as schools, parks, residential areas, and commercial zones.
 - These bins are partitioned into multiple compartments to accommodate different types of waste, including paper, plastic, and metal.
@@ -48,7 +48,7 @@
 - It provides an intuitive interface for administrators to track fill levels, optimize collection routes, and promptly respond to bin capacity.
 
 
-## Design System
+## Design System 🌟
 ### 1. Model
 ![Desigin Bin](./DEMO/design_bin.png)
 ### 2. IOT System
@@ -88,7 +88,7 @@ By contributing to this repository, you agree to license your contributions unde
 
 For questions or inquiries about commercial licensing, please contact [tttiuem2k3@gmail.com].
 
-## Contact
+## Contact 📬
 For questions, contributions, or bug reports, please feel free to reach out:
 
 - Email: [tttiuem2k3@gmail.com](tttiuem2k3@gmail.com)
