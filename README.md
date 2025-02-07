@@ -13,7 +13,7 @@
 # Team Roles
 - **Mr. Hoang Trong** - AI Engineer
   - Responsibilities: Researched algorithm for model training, collected data, trained and fine-tuned AI model, developed Django Rest Framework server, implemented APIs for mobile deployment, and wrote reports.
- - Github: [https://github.com/bigboss151102](https://github.com/bigboss151102)
+  - Github: [https://github.com/bigboss151102](https://github.com/bigboss151102)
 
 - **Mr. Do Cuong** - IOT Engineer
   - Responsibilities: Collected real data captured from ESP32 CAM, established connection protocol between ESP32 CAM and Server, set up Websockets for communication between ESP8266 and Server, processed information upon receiving waste data, deployed Backend Server via NGROK and Websockets via AWS.
@@ -57,8 +57,8 @@
 ## 3. AI Flow
 ![Desigin Bin](./DEMO/ai_flow.png)
 ## 4. Mobile interface
-![Desigin Bin](./DEMO/mobile1.png)
-![Desigin Bin](./DEMO/mobile2.png)
+![Desigin Bin](./DEMO/mobile1.PNG)
+![Desigin Bin](./DEMO/mobile2.PNG)
 ## Installation Guide
 Ensure you have Python 3.9+ installed.
 
