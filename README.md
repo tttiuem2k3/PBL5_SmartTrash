@@ -9,16 +9,19 @@
 - [Contributing](#contributing)
 - [Contact](#contact)
 # Demo
-![Demo](./images/demo.gif)
+![Demo](./DEMO/demo.gif)
 # Team Roles
 - **Mr. Hoang Trong** - AI Engineer
   - Responsibilities: Researched algorithm for model training, collected data, trained and fine-tuned AI model, developed Django Rest Framework server, implemented APIs for mobile deployment, and wrote reports.
  - Github: [https://github.com/bigboss151102](https://github.com/bigboss151102)
+
 - **Mr. Do Cuong** - IOT Engineer
   - Responsibilities: Collected real data captured from ESP32 CAM, established connection protocol between ESP32 CAM and Server, set up Websockets for communication between ESP8266 and Server, processed information upon receiving waste data, deployed Backend Server via NGROK and Websockets via AWS.
   - Github: [https://github.com/cuongdc03](https://github.com/cuongdc03)
+
 - **Mr. Tran Thinh** - Sofware Engineer
-  - Responsibilities:Developed an Android Kotlin application to fully integrate and control system functionalities via APIs from the Server, in addition to providing hardware support, and completed the project with report writing
+  - Responsibilities: Developing a mobile application using Android Kotlin to integrate and deploy the entire system's functions on a smart and user-friendly interface, interacting with APIs from the server. Additionally, it supports hardware installation and development, data collection, project result reporting, and in-depth analysis.
+  - Github: [https://github.com/tttiuem2k3](https://github.com/ttttiuem2k3)
 
 - **Mr. Vu Tin** - Hardware Engineer
   - Responsibilities: Design hardware model, assemble circuit, write servo control code, and compile a report.
@@ -48,12 +51,14 @@
 
 # Design System
 ## 1. Model
-![Desigin Bin](./images/design_bin.png)
+![Desigin Bin](./DEMO/design_bin.png)
 ## 2. IOT System
-![Desigin Bin](./images/design_system.png)
+![Desigin Bin](./DEMO/design_system.png)
 ## 3. AI Flow
-![Desigin Bin](./images/ai_flow.png)
-
+![Desigin Bin](./DEMO/ai_flow.png)
+## 4. Mobile interface
+![Desigin Bin](./DEMO/mobile1.png)
+![Desigin Bin](./DEMO/mobile2.png)
 ## Installation Guide
 Ensure you have Python 3.9+ installed.
 
@@ -80,13 +85,12 @@ You are not required to:
 
 By contributing to this repository, you agree to license your contributions under the same terms.
 
-For questions or inquiries about commercial licensing, please contact [hoangcongtrong02.dut@gmail.com].
+For questions or inquiries about commercial licensing, please contact [tttiuem2k3tttiuem2k3@gmail.com].
 
 ## Contact
 For questions, contributions, or bug reports, please feel free to reach out:
 
 - Email: [hoangcongtrong02.dut@gmail.com](hoangcongtrong02.dut@gmail.com)
-- Linkedin: [https://www.linkedin.com/in/hoangtrong151102/](https://www.linkedin.com/in/hoangtrong151102/)
-- Instagram: [https://www.instagram.com/h.c.trong_02/](https://www.instagram.com/h.c.trong_02/)
+- Zalo: +84 329966939
 
 We appreciate your feedback and involvement!
