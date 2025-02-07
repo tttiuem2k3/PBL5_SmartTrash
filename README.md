@@ -1,5 +1,4 @@
-# Smart Trash Project
-
+# Smart Trash Project 🚮✨  
 ## Table of Contents
 - [Demo](#demo)
 - [Team Roles](#team-roles)
@@ -8,9 +7,9 @@
 - [Installation Guide](#installation-guide)
 - [Contributing](#contributing)
 - [Contact](#contact)
-# Demo
+## Demo 🎥
 ![Demo](./DEMO/demo.gif)
-# Team Roles
+## Team Roles
 - **Mr. Hoang Trong** - AI Engineer
   - Responsibilities: Researched algorithm for model training, collected data, trained and fine-tuned AI model, developed Django Rest Framework server, implemented APIs for mobile deployment, and wrote reports.
   - Github: [https://github.com/bigboss151102](https://github.com/bigboss151102)
@@ -27,46 +26,48 @@
   - Responsibilities: Design hardware model, assemble circuit, write servo control code, and compile a report.
   - Github: [https://github.com/hoanggtin](https://github.com/hoanggtin)
 
-# Description
-## 1. Design and Build of Smart Trash Bins:
+## Description
+### 1. Design and Build of Smart Trash Bins:
 - We have designed and constructed smart trash bins that are compact and suitable for various public settings such as schools, parks, residential areas, and commercial zones.
 - These bins are partitioned into multiple compartments to accommodate different types of waste, including paper, plastic, and metal.
 
-## 2. Integration of Camera and Image Processing System:
+### 2. Integration of Camera and Image Processing System:
 - Each trash bin is equipped with an internal camera to capture images of deposited waste.
 - The images are transmitted to a server for processing, facilitating real-time analysis of waste content.
 
-## 3.AI Model Application for Waste Classification:
+### 3.AI Model Application for Waste Classification:
 - Utilizing advanced AI technology, our server deploys models to analyze and categorize waste based on the images received from ESP32 cameras.
 - This automated classification system enhances efficiency in waste management processes.
 
-## 4. Mechanism for Compartment Rotation:
+### 4. Mechanism for Compartment Rotation:
 - Our smart bins feature a mechanical system that rotates compartments according to the waste type identified by the AI model.
 - This ensures precise segregation and facilitates easier waste collection and recycling.
 
-## 5. Management and Monitoring via Server System:
+### 5. Management and Monitoring via Server System:
 - A centralized server manages and monitors the status of each trash bin in real-time.
 - It provides an intuitive interface for administrators to track fill levels, optimize collection routes, and promptly respond to bin capacity.
 
 
-# Design System
-## 1. Model
+## Design System
+### 1. Model
 ![Desigin Bin](./DEMO/design_bin.png)
-## 2. IOT System
+### 2. IOT System
 ![Desigin Bin](./DEMO/design_system.png)
-## 3. AI Flow
+### 3. AI Flow
 ![Desigin Bin](./DEMO/ai_flow.png)
-## 4. Mobile interface
+### 4. Mobile interface
 ![Desigin Bin](./DEMO/mobile1.PNG)
 ![Desigin Bin](./DEMO/mobile2.PNG)
-## Installation Guide
-Ensure you have Python 3.9+ installed.
-
+## Installation Guide ⚙️
+### Prerequisites
+- Python 3.9+
+- Android Studio (for mobile app)
+- PlatformIO (for ESP32/ESP8266)
 ```cmd
 pip install -r requirements.txt
 ```
 
-## License
+## License 📜
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) - see the [LICENSE](LICENSE) file for details.
 
 You are free to:
@@ -91,6 +92,6 @@ For questions or inquiries about commercial licensing, please contact [tttiuem2k
 For questions, contributions, or bug reports, please feel free to reach out:
 
 - Email: [tttiuem2k3@gmail.com](tttiuem2k3@gmail.com)
+- Linkedin: [https://www.linkedin.com/in/thinh-tran-04122k3/](https://www.linkedin.com/in/thinh-tran-04122k3/)
 - Zalo: +84 329966939
-
-We appreciate your feedback and involvement!
+Let's build a cleaner future together! ♻️💡
