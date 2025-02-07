@@ -90,7 +90,7 @@ For questions or inquiries about commercial licensing, please contact [tttiuem2k
 ## Contact
 For questions, contributions, or bug reports, please feel free to reach out:
 
-- Email: [hoangcongtrong02.dut@gmail.com](hoangcongtrong02.dut@gmail.com)
+- Email: [tttiuem2k3@gmail.com](tttiuem2k3@gmail.com)
 - Zalo: +84 329966939
 
 We appreciate your feedback and involvement!
