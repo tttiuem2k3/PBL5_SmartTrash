@@ -85,7 +85,7 @@ You are not required to:
 
 By contributing to this repository, you agree to license your contributions under the same terms.
 
-For questions or inquiries about commercial licensing, please contact [tttiuem2k3tttiuem2k3@gmail.com].
+For questions or inquiries about commercial licensing, please contact [tttiuem2k3@gmail.com].
 
 ## Contact
 For questions, contributions, or bug reports, please feel free to reach out:
