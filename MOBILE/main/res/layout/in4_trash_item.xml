@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FDFBFB">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="116dp"
+        android:background="#FFFFFF">
+
+        <ImageView
+            android:id="@+id/trash_image"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@drawable/metal_003" />
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="125dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="92dp"
+            android:layout_marginTop="4dp"
+            android:gravity="center|left"
+            android:text="Mã thùng rác:"
+            android:textColor="#0C0C0C"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="125dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="92dp"
+            android:layout_marginTop="36dp"
+            android:gravity="center|left"
+            android:text="Khu vực:"
+            android:textColor="#0C0C0C"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="50dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="92dp"
+            android:layout_marginTop="72dp"
+            android:gravity="center|left"
+            android:text="Mô tả:"
+            android:textColor="#0C0C0C"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/trash_name"
+            android:layout_width="142dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="222dp"
+            android:gravity="center"
+            android:text="T-001"
+            android:textColor="#811014"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/zone_name"
+            android:layout_width="142dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="222dp"
+            android:layout_marginTop="34dp"
+            android:gravity="center"
+            android:text="Sơn Trà"
+            android:textColor="#21730E"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/trash_inf"
+            android:layout_width="220dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="144dp"
+            android:layout_marginTop="70dp"
+            android:text="Một thùng rác công cộng đặt ngay bãi biển Mân Thái"
+            android:textColor="#595454"
+            android:textSize="12sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

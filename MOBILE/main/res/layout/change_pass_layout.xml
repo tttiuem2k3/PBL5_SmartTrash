@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/chanepass_back">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:background="@drawable/chanepass_header"
+        android:gravity="center"
+        android:text="Đổi mật khẩu"
+        android:textColor="#040404"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btn_close"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="3dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Thoát"
+        android:src="@drawable/icon_close"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.98"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="350dp"
+        android:layout_height="550dp"
+        android:background="@drawable/notification_item_notification"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.497" />
+
+    <Button
+        android:id="@+id/btnChangepass"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="575dp"
+        android:background="@drawable/btn_chanepassback"
+        android:text="Xác nhận"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="192dp"
+        android:ems="10"
+        android:hint="Nhập mật khẩu hiện tại"
+        android:inputType="textPassword"
+        android:paddingLeft="50dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/newpass"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="282dp"
+        android:ems="10"
+        android:hint="Nhập mật khẩu mới"
+        android:inputType="textPassword"
+        android:paddingLeft="50dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/repass"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="372dp"
+        android:ems="10"
+        android:hint="Nhập lại mật khẩu mới"
+        android:inputType="textPassword"
+        android:paddingLeft="50dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:background="@drawable/user_login"
+        android:padding="5dp"
+        android:src="@drawable/icon_password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+
+        android:layout_marginTop="200dp"
+        android:src="@drawable/icon_unlock"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.155"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+
+        android:layout_marginTop="290dp"
+        android:src="@drawable/icon_login_lock"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.155"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="380dp"
+        android:src="@drawable/icon_confirm"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.155"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="300dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="432dp"
+        android:text="Lưu ý: \n- Mật khẩu có độ dài từ 7-20 ký tự, trong đó bao gồm đủ 4 yếu tố: ký tự số (1,2,3,..), chữ hoa (A,B,C,..), chữ thường (a,b,c,..), ký tự đặc biệt (@,#,$,..).\n- Mật khẩu mới không được trùng với mật khẩu cũ."
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView" />
+</androidx.constraintlayout.widget.ConstraintLayout>

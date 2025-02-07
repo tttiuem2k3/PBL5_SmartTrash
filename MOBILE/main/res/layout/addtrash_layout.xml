@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/addtrash_back">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:background="@drawable/addtrash_header"
+        android:gravity="center"
+        android:text="Thêm thùng rác"
+        android:textColor="#040404"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btn_close"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="3dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Thoát"
+        android:src="@drawable/icon_close"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.98"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="350dp"
+        android:layout_height="550dp"
+        android:background="@drawable/notification_item_notification"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnAddtrash"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="585dp"
+        android:background="@drawable/btn_addtrashback"
+        android:text="OK"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/trash_name"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="192dp"
+        android:ems="10"
+        android:hint="Nhập mã thùng rác"
+        android:inputType="text"
+        android:paddingLeft="50dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/zone_name"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="282dp"
+        android:ems="10"
+        android:hint="Nhập tên khu vực"
+        android:inputType="text"
+        android:paddingLeft="50dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/trash_inf"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="372dp"
+        android:ems="10"
+        android:hint="Nhập mô tả"
+        android:inputType="text"
+        android:paddingLeft="50dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:background="@drawable/add_trashicon"
+        android:padding="5dp"
+        android:src="@drawable/icon_addtrash"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/icon_addtrash1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.155"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+
+        android:layout_marginTop="290dp"
+        android:src="@drawable/icon_map"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.155"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="380dp"
+        android:src="@drawable/icon_note"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.155"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="432dp"
+        android:text="Lưu ý: \n- Mã thùng rác với định dạng 'chữ cái in hoa' + ' - ' + 'số có ba chữ số', ví dụ: A-001.\n- Tên khu vực là các quận trong địa bàn thành phố Đà Nẵng mà hệ thống quản lý, ví dụ: Sơn Trà.\n- Mô tả là vị trí cụ thể của thùng rác hoặc các thông tin đặc biệt khác. "
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

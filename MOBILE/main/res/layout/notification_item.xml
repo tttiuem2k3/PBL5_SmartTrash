@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#00FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+        android:background="#00FFFFFF">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_weight="0"
+            android:background="#00FFFFFF">
+
+            <TextView
+                android:id="@+id/date_time"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/notification_item_datetime"
+                android:gravity="center"
+                android:text="TextView"
+                android:textColor="#ABE3EF"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.925"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/trashname"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/notification_item_trashname"
+                android:gravity="center"
+                android:text="TextView"
+                android:textColor="#EFA6A8"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/date_time"
+                app:layout_constraintHorizontal_bias="0.066"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_weight="0"
+            android:background="#00FFFFFF">
+
+            <TextView
+                android:id="@+id/textview11"
+                android:layout_width="360dp"
+                android:layout_height="100dp"
+                android:background="@drawable/notification_item_notification"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/image_notification"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                app:layout_constraintBottom_toBottomOf="@+id/notification"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/notification"
+                app:layout_constraintVertical_bias="0.5"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/notification"
+                android:layout_width="272dp"
+                android:layout_height="67dp"
+                android:layout_marginTop="16dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="TextView"
+                android:textColor="#010101"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.78"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

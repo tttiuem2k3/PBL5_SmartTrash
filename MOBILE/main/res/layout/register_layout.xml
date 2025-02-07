@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/register_back">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="350dp"
+        android:layout_height="550dp"
+        android:background="@drawable/notification_item_notification"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btn_close"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/icon_close"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.955"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="565dp"
+        android:background="@drawable/btn_registerback"
+        android:text="Đăng ký"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="192dp"
+        android:ems="10"
+        android:hint="Tên tài khoản"
+        android:inputType="text"
+        android:paddingLeft="50dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="412dp"
+        android:ems="10"
+        android:hint="Nhập mật khẩu"
+        android:inputType="textPassword"
+        android:paddingLeft="50dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/repass"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="488dp"
+        android:ems="10"
+        android:hint="Nhập lại mật khẩu"
+        android:inputType="textPassword"
+        android:paddingLeft="50dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="14dp"
+        app:layout_constraintBottom_toBottomOf="@+id/username"
+        app:layout_constraintEnd_toEndOf="@+id/username"
+        app:layout_constraintHorizontal_bias="0.04"
+        app:layout_constraintStart_toStartOf="@+id/username"
+        android:src="@drawable/icon_userlogin1" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="13dp"
+        android:src="@drawable/icon_phone"
+        app:layout_constraintBottom_toBottomOf="@+id/Phone"
+        app:layout_constraintEnd_toEndOf="@+id/Phone"
+        app:layout_constraintHorizontal_bias="0.04"
+        app:layout_constraintStart_toStartOf="@+id/Phone" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="13dp"
+        android:src="@drawable/icon_email"
+        app:layout_constraintBottom_toBottomOf="@+id/Email"
+        app:layout_constraintEnd_toEndOf="@+id/Email"
+        app:layout_constraintHorizontal_bias="0.04"
+        app:layout_constraintStart_toStartOf="@+id/Email" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="13dp"
+        android:src="@drawable/icon_confirm"
+        app:layout_constraintBottom_toBottomOf="@+id/repass"
+        app:layout_constraintEnd_toEndOf="@+id/repass"
+        app:layout_constraintHorizontal_bias="0.04"
+        app:layout_constraintStart_toStartOf="@+id/repass" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="14dp"
+        app:layout_constraintBottom_toBottomOf="@+id/pass"
+        app:layout_constraintEnd_toEndOf="@+id/pass"
+        app:layout_constraintHorizontal_bias="0.04"
+        app:layout_constraintStart_toStartOf="@+id/pass"
+        android:src="@drawable/icon_login_lock" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:background="@drawable/user_login"
+        android:padding="5dp"
+        android:src="@drawable/icon_user_login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView111"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="520dp"
+        android:text="Bạn đã có tài khoản? ,  "
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="0.326"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/dangnhap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="520dp"
+        android:text="đăng nhập"
+        android:textColor="#2196F3"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="0.730"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:text="Register"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/Phone"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:paddingLeft="50dp"
+        android:textStyle="bold"
+        android:ems="10"
+        android:hint="Số điện thoại"
+        android:layout_marginTop="264dp"
+        android:inputType="phone"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="336dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="50dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
