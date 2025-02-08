@@ -5,7 +5,7 @@ A cutting-edge project that integrates IoT, AI, and smart design to revolutioniz
 ---
 
 ## Table of Contents
-- [🎥 Demo](##demo)
+- [🎥 Demo](#demo)
 - [👥 Team Roles](#team-roles)
 - [🧠 Description](#description)
 - [🌟 Design System](#design-system)
@@ -15,12 +15,12 @@ A cutting-edge project that integrates IoT, AI, and smart design to revolutioniz
 
 ---
 
-## Demo 🎥
+## Demo 🎥 {#demo}
 ![Project Demo](./DEMO/demo.gif)
 
 ---
 
-## Team Roles 👥
+## Team Roles 👥 {#team-roles}
 
 ### **Mr. Hoang Trong** - AI Engineer 🤖
 - **Responsibilities:**
@@ -60,7 +60,7 @@ A cutting-edge project that integrates IoT, AI, and smart design to revolutioniz
 
 ---
 
-## Description 🧠
+## Description 🧠 {#description}
 
 ### 1. **Smart Trash Bin Design & Construction** 🏗️
 - Engineered compact and versatile smart trash bins suitable for various public environments including schools, parks, residential areas, and commercial zones.
@@ -84,7 +84,7 @@ A cutting-edge project that integrates IoT, AI, and smart design to revolutioniz
 
 ---
 
-## Design System 🌟
+## Design System 🌟 {#design-system}
 
 ### 1. **3D Model of Smart Trash Bin** 📐
 ![Smart Trash Bin Design](./DEMO/design_bin.png)
