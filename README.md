@@ -2,7 +2,7 @@
 ## Table of Contents 
 - [Demo](#demo)
 - [Team Roles](#team-roles)
-- [Description](#description)
+- [Description](#description) 
 - [Design System](#design-system)
 - [Installation Guide](#installation-guide)
 - [Contributing](#contributing)
