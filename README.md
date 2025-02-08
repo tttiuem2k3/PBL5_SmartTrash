@@ -5,7 +5,7 @@ A cutting-edge project that integrates IoT, AI, and smart design to revolutioniz
 ---
 
 ## Table of Contents
-- [🎥 Demo](#demo)
+- 🎥 [Demo](#demo)
 - [👥 Team Roles](#team-roles)
 - [🧠 Description](#description)
 - [🌟 Design System](#design-system)
