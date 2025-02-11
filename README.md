@@ -145,8 +145,8 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 
 If you have any questions, suggestions, or bug reports, please feel free to reach out:
 
-- **Email:** [tttiuem2k3@gmail.com](mailto:tttiuem2k3@gmail.com)
-- **LinkedIn:** [Thinh Tran](https://www.linkedin.com/in/thinh-tran-04122k3/)
-- **Zalo:** +84 329966939
+- 📧 Email: tttiuem2k3@gmail.com
+- 👥 Linkedin: [Thịnh Trần](https://www.linkedin.com/in/thinh-tran-04122k3/)
+- 💬 Zalo: +84 329966939
 
 Let's work together to build a cleaner and smarter future! ♻️💡
