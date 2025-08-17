@@ -14,7 +14,7 @@ A cutting-edge project that integrates IoT, AI, and smart design to revolutioniz
 7. [:scroll: License](#scroll-license)  
 8. [:email: Contact](#email-contact)  
 
----
+--- 
 
 ## :clapper: Demo  
 ![Project Demo](./DEMO/demo.gif)  
